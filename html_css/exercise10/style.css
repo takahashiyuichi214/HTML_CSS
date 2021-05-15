@@ -60,32 +60,18 @@ footer {
   background-color: #aaa;
 }
 
-/* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
 @media screen and (max-width: 768px) {
-  head{
-    height: 50px;
-  }
-  
-  main{
+  main {
     width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items : center
-  }
-  .step-box{
-    width: 90%;
-    margin-bottom:20px;
+    display: block;
+    margin-right: 0%;
+    margin-left: 0%;
   }
 
-  .step-box:last-child{
+  .step-box {
     width: 90%;
-    margin-bottom: 0;
-  }
-
-  footer{
-    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 }
